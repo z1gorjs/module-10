@@ -1,0 +1,114 @@
+@import "../css/common/common.css";
+@import "../css/header/header.css";
+@import "../css/header/site-navigation/site-navigation.css";
+@import "../css/nav-menu/nav-menu.css";
+@import "../css/header/attraction/attraction.css";
+@import "../css/header/attraction/button_atraction/button_atraction.css";
+@import "../css/team/team.css";
+@import "../css/footer/footer.css";
+@import "../css/footer/site-info/site-info.css";
+@import "../css/footer/email/email.css";
+@import "../css/footer/button_subscribe/button_subscribe.css";
+
+.section__headline {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.section__intro {
+    display: block;
+    padding-bottom: 20px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.section__text {
+    display: block;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.section__text::after {
+    display: block;
+    background-color: rgb(243, 129, 129);
+    margin: 40px auto 0;
+    width: 60px;
+    height: 3px;
+    content: "";
+}
+
+.section__headline_mb {
+    margin-bottom: 62px;
+}
+
+.services__list {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    -ms-flex-preferred-size: 380px;
+    flex-basis: 380px;
+    min-height: 170px;
+}
+
+.services__item-headline {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgb(153, 153, 153);
+}
+
+.services__item::before {
+    display: inline-block;
+    width: 80px;
+    height: 31px;
+    content: "";
+    background: center center no-repeat;
+}
+
+.services__icon_clock::before {
+    background-image: url(../img/icons_svg/1.ALARM.svg);
+}
+
+.services__icon_linegraph::before {
+    background-image: url(../img/icons_svg/2.LINE_GRAPH.svg);
+}
+
+.services__icon_creativity::before {
+    background-image: url(../img/icons_svg/3.COMPUTER.svg);
+}
+
+.services__icon_seo::before {
+    background-image: url(../img/icons_svg/4.BOOK.svg);
+}
+
+.services__icon_css-html::before {
+    background-image: url(../img/icons_svg/5.HOME.svg);
+}
+
+.services__icon_digital::before {
+    background-image: url(../img/icons_svg/6.IMAGE.svg);
+}
+
+.services__item-paragraph {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 80px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.071rem;
+    line-height: 24px;
+    color: rgb(153, 153, 153);
+}

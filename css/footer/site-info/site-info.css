@@ -1,0 +1,10 @@
+.site-info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #333333;
+}
+
+.site-info__word_red {
+  color: #f38181;
+}

@@ -1,0 +1,21 @@
+.atraction {
+  text-align: center;
+}
+
+.attraction__item {
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+}
+
+.attraction__name {
+  padding-bottom: 110px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  line-height: 140px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
